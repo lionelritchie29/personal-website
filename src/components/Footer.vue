@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary pt-32">
+  <div class="bg-primary pt-16">
     <div class="text-center">
       <h4 class="font-semibold text-white text-lg">Stay Connected</h4>
       <h5 class="text-secondary mt-4 text-sm">Jakarta, Indonesia</h5>
@@ -17,7 +17,7 @@
             size="2x"
           />
         </a>
-        <a title="WhatsApp" href="https://wa.me/6887783002325" target="_blank">
+        <a title="WhatsApp" href="https://wa.me/6287783002325" target="_blank">
           <font-awesome-icon
             class="mr-4 text-white transition duration-300 transform hover:-translate-y-1"
             :icon="['fab', 'whatsapp']"
@@ -37,7 +37,7 @@
         </a>
         <a
           title="Github"
-          href="https://instagram.com/lionel_ritchie/"
+          href="http://github.com/lionelritchie29"
           target="_blank"
         >
           <font-awesome-icon

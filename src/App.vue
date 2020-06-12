@@ -1,7 +1,9 @@
 <template>
-  <div id="app" class="bg-primary">
+  <div id="app" class="bg-primary-dark">
     <Navbar />
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
     <Footer />
   </div>
 </template>
@@ -14,9 +16,17 @@ export default {
   name: "app",
   components: {
     Navbar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
-<style></style>
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>

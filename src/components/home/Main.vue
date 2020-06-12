@@ -30,17 +30,19 @@
               Developer and Student, based in Jakarta, Indonesia.
             </p>
             <div class="flex flex-col md:flex-row mt-4 items-center">
-              <button
-                class="bg-secondary hover:bg-secondary-light w-3/5 md:mr-4 lg:mr-6 text-primary font-semibold px-6 py-2 rounded-full"
+              <router-link
+                to="/contact"
+                class="text-center bg-secondary hover:bg-secondary-light w-3/5 md:mr-4 lg:mr-6 text-primary font-semibold px-6 py-2 rounded-full"
               >
                 Contact
-              </button>
+              </router-link>
 
-              <button
-                class="bg-transparent hover:bg-secondary-light hover:text-primary hover:border-opacity-0 w-3/5 mt-4 md:mt-0 border border-secondary text-secondary font-semibold px-6 py-2 rounded-full"
+              <router-link
+                to="/works"
+                class="text-center bg-transparent hover:bg-secondary-light hover:text-primary hover:border-opacity-0 w-3/5 mt-4 md:mt-0 border border-secondary text-secondary font-semibold px-6 py-2 rounded-full"
               >
                 Works
-              </button>
+              </router-link>
             </div>
           </div>
         </div>
@@ -56,8 +58,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.btn {
-  @apply bg-secondary w-3/5;
-}
-</style>
+<style scoped></style>

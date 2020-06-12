@@ -9,7 +9,10 @@
             lorem ipsum dolor sit amit estetu valas dominic verifi the quick fox
             brown lazy jump over the fence
           </p>
-          <a href="#" class="underline text-secondary font-semibold">
+          <a
+            href="#"
+            class="underline text-secondary hover:text-secondary-light font-semibold"
+          >
             Explore More
             <font-awesome-icon
               icon="arrow-right"
@@ -19,9 +22,6 @@
         </div>
 
         <div
-          data-aos="zoom-in-left"
-          data-aos-duration="700"
-          data-aos-offset="0"
           class="text-center mt-16 md:-mb-40 flex justify-center md:block transition duration-300 transform hover:-translate-y-3"
         >
           <img
@@ -34,9 +34,6 @@
 
       <div class="flex flex-col md:flex-row justify-around mt-12 ">
         <div
-          data-aos="zoom-in-right"
-          data-aos-duration="700"
-          data-aos-offset="0"
           class="flex justify-center md:block transition duration-300 transform hover:-translate-y-3"
         >
           <img
@@ -47,9 +44,6 @@
         </div>
 
         <div
-          data-aos="zoom-in-left"
-          data-aos-duration="700"
-          data-aos-offset="0"
           class="flex justify-center md:block mt-12 md:mt-64 transition duration-300 transform hover:-translate-y-3"
         >
           <img
