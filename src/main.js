@@ -26,6 +26,7 @@ import {
   faGlobe,
   faArrowRight,
   faBars,
+  faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faLinkedinIn,
@@ -41,7 +42,8 @@ library.add(
   faLaravel,
   faVuejs,
   faPhp,
-  faBootstrap
+  faBootstrap,
+  faExternalLinkAlt
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

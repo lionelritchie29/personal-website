@@ -4,20 +4,19 @@
       <div class="flex flex-col md:flex-row">
         <div class="md:w-1/2">
           <div class="md:w-4/6 mx-auto flex justify-center">
-            <img src="../../assets/images/profile.png" alt="profile-photo" />
+            <div>
+              <img src="../../assets/images/profile.png" alt="profile-photo" />
+            </div>
           </div>
         </div>
 
         <div class="pt-10 md:w-1/2">
           <div class="text-xl lg:text-2xl md:w-5/6">
-            <h3 class="text-secondary font-semibold text-center md:text-left">
-              a bit about my self
-            </h3>
+            <h3 class="text-secondary font-semibold text-center md:text-left">a bit about my self</h3>
             <p class="text-white mt-5">
-              Currently a computer science student at Binus University and doing
+              That's my face. Currently a computer science student at Binus University and doing
               some web projects. Passionate about web development and aim to be
-              an expert at Full-Stack Web Development before graduate. Love to
-              learn and read books.
+              an expert at Full-Stack Web Development. Reading books is also one of my hobby.
             </p>
 
             <div class="flex mt-8">
@@ -48,41 +47,41 @@ export default {
         {
           id: 1,
           name: ["fab", "html5"],
-          title: "HTML5",
+          title: "HTML5"
         },
         {
           id: 2,
           name: ["fab", "css3-alt"],
-          title: "CSS3",
+          title: "CSS3"
         },
         {
           id: 3,
           name: ["fab", "js"],
-          title: "Javascript",
+          title: "Javascript"
         },
         {
           id: 4,
           name: ["fab", "php"],
-          title: "PHP",
+          title: "PHP"
         },
         {
           id: 5,
           name: ["fab", "bootstrap"],
-          title: "Bootstrap",
+          title: "Bootstrap"
         },
         {
           id: 6,
           name: ["fab", "laravel"],
-          title: "Laravel",
+          title: "Laravel"
         },
         {
           id: 7,
           name: ["fab", "vuejs"],
-          title: "VueJS",
-        },
-      ],
+          title: "VueJS"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 

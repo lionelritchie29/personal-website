@@ -27,44 +27,44 @@
                 class="sidenav text-center border-b-8 border-secondary border-t-8"
                 :class="{ show: sidebar }"
               >
-                <a
-                  href="javascript:void(0)"
-                  class="closebtn"
-                  @click="sidebar = false"
-                  >&times;</a
-                >
+                <a href="javascript:void(0)" class="closebtn" @click="sidebar = false">&times;</a>
 
                 <div class="text-2xl">
-                  <router-link to="/" @click="sidebar = false" class="pt-12"
-                    >Home</router-link
-                  >
-                  <router-link to="/" @click="sidebar = false" class="pt-12"
-                    >Services</router-link
-                  >
-                  <router-link to="/" @click="sidebar = false" class="pt-12"
-                    >Works</router-link
-                  >
-                  <router-link
-                    to="/contact"
-                    @click="sidebar = false"
-                    class="pt-12"
-                    >Contact</router-link
-                  >
-                  <router-link
-                    to="/about"
-                    @click="sidebar = false"
-                    class="pt-12"
-                    >About</router-link
-                  >
+                  <router-link to="/" class="pt-12">
+                    <span
+                      :class="{'text-secondary' : this.$route.name == 'Home'}"
+                      @click="sidebar = false"
+                    >Home</span>
+                  </router-link>
+                  <router-link to="/services" class="pt-12">
+                    <span
+                      :class="{'text-secondary' : this.$route.name == 'Services'}"
+                      @click="sidebar = false"
+                    >Services</span>
+                  </router-link>
+                  <router-link to="/works" class="pt-12">
+                    <span
+                      :class="{'text-secondary' : this.$route.name == 'Works'}"
+                      @click="sidebar = false"
+                    >Works</span>
+                  </router-link>
+                  <router-link to="/contact" class="pt-12">
+                    <span
+                      :class="{'text-secondary' : this.$route.name == 'Contact'}"
+                      @click="sidebar = false"
+                    >Contacts</span>
+                  </router-link>
+                  <router-link to="/about" class="pt-12">
+                    <span
+                      :class="{'text-secondary' : this.$route.name == 'About'}"
+                      @click="sidebar = false"
+                    >About</span>
+                  </router-link>
                 </div>
                 <div
                   class="flex justify-center mt-20 transition duration-300 transform hover:rotate-360"
                 >
-                  <img
-                    src="../assets/images/brand.svg"
-                    class="w-12"
-                    alt="brand"
-                  />
+                  <img src="../assets/images/brand.svg" class="w-12" alt="brand" />
                 </div>
               </div>
             </transition>
@@ -75,30 +75,34 @@
                   <router-link to="/" class="border-b-2 hover:border-secondary"
                     >Home</router-link
                   >
-                </li> -->
+                </li>-->
                 <li class="mr-8">
-                  <router-link to="/" class="border-b-2 hover:border-secondary"
-                    >Services</router-link
-                  >
+                  <router-link
+                    to="/services"
+                    :class="{'border-secondary' : this.$route.name == 'Services'}"
+                    class="border-b-2 hover:border-secondary"
+                  >Services</router-link>
                 </li>
                 <li class="mr-8">
-                  <router-link to="/" class="border-b-2 hover:border-secondary"
-                    >Works</router-link
-                  >
+                  <router-link
+                    to="/works"
+                    :class="{'border-secondary' : this.$route.name == 'Works'}"
+                    class="border-b-2 hover:border-secondary"
+                  >Works</router-link>
                 </li>
                 <li class="mr-8">
                   <router-link
                     to="/contact"
+                    :class="{'border-secondary' : this.$route.name == 'Contact'}"
                     class="border-b-2 hover:border-secondary"
-                    >Contact</router-link
-                  >
+                  >Contact</router-link>
                 </li>
                 <li class="mr-8">
                   <router-link
                     to="/about"
+                    :class="{'border-secondary' : this.$route.name == 'About'}"
                     class="border-b-2 hover:border-secondary"
-                    >About</router-link
-                  >
+                  >About</router-link>
                 </li>
               </ul>
             </div>
@@ -119,9 +123,9 @@ export default {
   name: "navbar",
   data() {
     return {
-      sidebar: false,
+      sidebar: false
     };
-  },
+  }
 };
 </script>
 
