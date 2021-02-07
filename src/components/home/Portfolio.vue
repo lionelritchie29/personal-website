@@ -5,7 +5,9 @@
         <div class="w-full md:w-3/6 lg:w-2/6">
           <h3 class="text-gray-600 font-semibold text-lg">~ Portfolio</h3>
           <h1 class="text-white font-bold text-3xl pb-4">My works.</h1>
-          <p class="text-gray-600 text-sm pb-4">For more, click the button bellow.</p>
+          <p class="text-gray-600 text-sm pb-4">
+            For more, click the button bellow.
+          </p>
           <router-link
             to="/works"
             class="underline text-secondary hover:text-secondary-light font-semibold"
@@ -23,10 +25,10 @@
         >
           <div>
             <img
-              src="../../assets/images/portfolio/pedro.jpg"
-              title="Pedro"
+              src="../../assets/images/portfolio/football-spa.jpg"
+              title="Football Spa"
               class="w-full md:w-5/6"
-              alt="pedro"
+              alt="Football Spa"
             />
           </div>
         </div>
@@ -38,10 +40,10 @@
         >
           <div>
             <img
-              src="../../assets/images/portfolio/foodie.jpg"
+              src="../../assets/images/portfolio/restoqu.jpg"
               class="w-full md:w-5/6"
-              alt="dummy port"
-              title="Foodie"
+              alt="Restoqu"
+              title="Restoqu App"
             />
           </div>
         </div>
@@ -51,10 +53,10 @@
         >
           <div>
             <img
-              src="../../assets/images/portfolio/casterwoods.jpg"
+              src="../../assets/images/portfolio/staem.jpg"
               class="w-full md:w-5/6"
-              alt="dummy port"
-              title="Casterwoods"
+              alt="Staem (Steam Clone)"
+              title="Staem (Steam Clone)"
             />
           </div>
         </div>
@@ -65,7 +67,7 @@
 
 <script>
 export default {
-  name: "portfolio"
+  name: "portfolio",
 };
 </script>
 

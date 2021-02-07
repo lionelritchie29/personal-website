@@ -4,7 +4,9 @@
       <div class="flex flex-col md:flex-row md:pt-12">
         <div class="mt-8 md:w-1/2">
           <div class="md:w-4/6 mx-auto">
-            <h1 class="text-white font-semibold text-2xl text-center md:text-left">
+            <h1
+              class="text-white font-semibold text-2xl text-center md:text-left"
+            >
               Got a Project ?
               <br />Let me know.
             </h1>
@@ -16,15 +18,23 @@
 
         <div class="mt-8 pb-12 md:w-1/2">
           <div class="md:w-4/6 mx-auto">
-            <h1 class="text-white font-semibold text-2xl text-center md:text-left">Get in touch.</h1>
+            <h1
+              class="text-white font-semibold text-2xl text-center md:text-left"
+            >
+              Get in touch.
+            </h1>
             <div class="kwes-form">
               <form
                 method="POST"
-                action="https://kwes.io/api/foreign/forms/liJa2wwjmwpNplDPmdPS"
+                action="https://kwes.io/api/foreign/forms/GPzW8XNWgXP16k0ctVib"
                 success-message="Thank you! I will respond to your message as soon as possible."
               >
                 <div class="mt-8">
-                  <label class="block text-white font-semibold text-sm" for="name">Your name</label>
+                  <label
+                    class="block text-white font-semibold text-sm"
+                    for="name"
+                    >Your name</label
+                  >
                   <input
                     type="text"
                     class="w-full px-2 bg-transparent border-b text-lg pt-2 text-white outline-none"
@@ -34,7 +44,11 @@
                 </div>
 
                 <div class="mt-8">
-                  <label class="block text-white font-semibold text-sm" for="name">Your fancy email</label>
+                  <label
+                    class="block text-white font-semibold text-sm"
+                    for="name"
+                    >Your fancy email</label
+                  >
                   <input
                     type="email"
                     class="w-full px-2 bg-transparent border-b text-lg pt-2 text-white outline-none"
@@ -44,20 +58,36 @@
                 </div>
 
                 <div class="mt-8">
-                  <label class="block text-white font-semibold text-sm" for="name">Your needs</label>
+                  <label
+                    class="block text-white font-semibold text-sm"
+                    for="name"
+                    >Your needs</label
+                  >
                   <select
                     name="needs"
                     class="w-full px-2 bg-transparent border-b text-lg pt-2 text-white outline-none"
                   >
-                    <option value="website" class="text-primary">I want to create a website ...</option>
-                    <option value="collaborate" class="text-primary">I want to collaborate ...</option>
-                    <option value="discuss" class="text-primary">I want to discuss ...</option>
-                    <option value="chat" class="text-primary">I want to give feedback ...</option>
+                    <option value="website" class="text-primary"
+                      >I want to create a website ...</option
+                    >
+                    <option value="collaborate" class="text-primary"
+                      >I want to collaborate ...</option
+                    >
+                    <option value="discuss" class="text-primary"
+                      >I want to discuss ...</option
+                    >
+                    <option value="chat" class="text-primary"
+                      >I want to give feedback ...</option
+                    >
                   </select>
                 </div>
 
                 <div class="mt-8">
-                  <label class="block text-white font-semibold text-sm" for="name">Tell me about it</label>
+                  <label
+                    class="block text-white font-semibold text-sm"
+                    for="name"
+                    >Tell me about it</label
+                  >
                   <textarea
                     name="message"
                     class="w-full px-2 bg-transparent border-b text-lg pt-2 text-white outline-none"
@@ -90,7 +120,7 @@ export default {
     kwesScript.setAttribute("src", "https://kwes.io/js/kwes.js");
 
     document.head.appendChild(kwesScript);
-  }
+  },
 };
 </script>
 

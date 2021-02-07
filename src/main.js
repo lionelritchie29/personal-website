@@ -20,6 +20,7 @@ import {
   faVuejs,
   faPhp,
   faBootstrap,
+  faAngular,
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
@@ -43,7 +44,8 @@ library.add(
   faVuejs,
   faPhp,
   faBootstrap,
-  faExternalLinkAlt
+  faExternalLinkAlt,
+  faAngular
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
