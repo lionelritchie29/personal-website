@@ -76,7 +76,7 @@ export default {
           id: 5,
           name: "Staem (Steam clone)",
           desc:
-            "Steam clone for TPA (Test Progressive of Assistant) Web as a teaching assistant at Binus University. Available features consists of: Login, Register (Sending OTP Email), Homepage, Game Detail (Info and Review), Search Game, Friends (Add, View, Pending Invites), Real-time chat, Redeem Wallet, Profile, Edit Profile, Points Shop, Community, Admin (Game, User, Promo), Inventory, Buy Game (Self), Cart System, Wishlist, and Market (Half). Front-end created with Angular, SCSS, and Apollo. Backend built using Postgresql, Go and Graphql.",
+            "Steam clone for TPA (Test Progressive of Assistant) Web as a teaching assistant at Binus University. Available features: Login, Register (Sending OTP Email), Homepage, Game Detail (Info and Review), Search Game, Friends (Add, View, Pending Invites), Real-time chat, Redeem Wallet, Profile, Edit Profile, Points Shop, Community, Admin (Game, User, Promo), Inventory, Buy Game (Self), Cart System, Wishlist, and Market (Half). Front-end created with Angular, SCSS, and Apollo. Backend built using Postgresql, Go and Graphql. Credentials you can use: lionelritchie (account name) and lionel123 (password)",
           url: "staem.jpg",
           position: "left",
           style: "md:ml-12 md:mr-40",

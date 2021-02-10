@@ -68,17 +68,15 @@
                     class="w-full px-2 bg-transparent border-b text-lg pt-2 text-white outline-none"
                   >
                     <option value="website" class="text-primary"
-                      >I want to create a website ...</option
+                      >Create Website</option
                     >
                     <option value="collaborate" class="text-primary"
-                      >I want to collaborate ...</option
+                      >Collaborate</option
                     >
                     <option value="discuss" class="text-primary"
-                      >I want to discuss ...</option
+                      >Discussion</option
                     >
-                    <option value="chat" class="text-primary"
-                      >I want to give feedback ...</option
-                    >
+                    <option value="chat" class="text-primary">Feedback</option>
                   </select>
                 </div>
 

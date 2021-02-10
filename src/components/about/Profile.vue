@@ -19,7 +19,6 @@
               That's my face. Currently a computer science student and a lab
               teaching assistant at Binus University. Passionate about web
               development and aim to be an expert at Full-Stack Web Development.
-              Reading books is also one of my hobby.
             </p>
 
             <div class="flex mt-8 flex-wrap">
