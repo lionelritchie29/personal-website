@@ -70,7 +70,7 @@ export default {
           url: "restoqu.jpg",
           position: "right",
           style: "md:mr-12 md:ml-40",
-          link: "restoqu.netlify.app",
+          link: "https://restoqu.netlify.app",
         },
         {
           id: 5,
@@ -80,7 +80,17 @@ export default {
           url: "staem.jpg",
           position: "left",
           style: "md:ml-12 md:mr-40",
-          link: "https://staem.herokuapp.com/images/landing.html",
+          link: "https://staem.netlify.app",
+        },
+        {
+          id: 6,
+          name: "Gojek Homepage Clone",
+          desc:
+            "I created this not so-clone of Gojek's homepage to learn React.",
+          url: "gojek.jpg",
+          position: "right",
+          style: "md:mr-12 md:ml-40",
+          link: "https://gojek.netlify.app/",
         },
       ],
     };
