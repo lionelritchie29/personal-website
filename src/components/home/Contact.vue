@@ -23,9 +23,9 @@
             >
               Get in touch.
             </h1>
-            <div>
+            <div class="kwes-form">
               <form
-                class="kwes-form"
+                method="POST"
                 action="https://kwes.io/api/foreign/forms/OlqMJdcyQZKKbRoWAt51"
                 success-message="Thank you! I will respond to your message as soon as possible."
               >
