@@ -28,9 +28,9 @@
               Fill out the form.
             </h1>
 
-            <div class="kwes-form">
+            <div>
               <form
-                method="POST"
+                class="kwes-form"
                 action="https://kwes.io/api/foreign/forms/OlqMJdcyQZKKbRoWAt51"
                 success-message="Thank you! I will respond to your message as soon as possible."
               >
