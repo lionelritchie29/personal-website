@@ -26,7 +26,7 @@
             <div class="kwes-form">
               <form
                 method="POST"
-                action="https://kwes.io/api/foreign/forms/GPzW8XNWgXP16k0ctVib"
+                action="https://kwes.io/api/foreign/forms/OlqMJdcyQZKKbRoWAt51"
                 success-message="Thank you! I will respond to your message as soon as possible."
               >
                 <div class="mt-8">
